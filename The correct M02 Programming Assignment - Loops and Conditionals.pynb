@@ -1,0 +1,97 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "3ecc39d3-3174-4dca-8435-7747ea56574a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4.1\n",
+    "secret = 6  \n",
+    "guess = 4\n",
+    "if guess < secret:\n",
+    "    print('too low')\n",
+    "elif guess > secret:\n",
+    "    print('too high')\n",
+    "else:\n",
+    "    print('just right')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "13c83bd8-2434-410e-b21b-9ae48f054cd6",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#4.2\n",
+    "small = True\n",
+    "green = False\n",
+    "if small and green:\n",
+    "    print(\"pea\")\n",
+    "elif small and not green:\n",
+    "    print(\"cherry\")\n",
+    "elif not small and green:\n",
+    "    print(\"watermelon\")\n",
+    "else:\n",
+    "    print(\"pumpkin\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "60a087af-e502-4ee4-a4f6-0d94f2216202",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#6.1\n",
+    "for value in [3, 2, 1, 0]:\n",
+    "    print(value)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9575f5bf-70d3-4178-acf6-d22858544efa",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "#6.2\n",
+    "guess_me = 7\n",
+    "number = 1\n",
+    "while number <= guess_me:\n",
+    "    if number < guess_me:\n",
+    "#        print('too low')\n",
+    "#    elif number == guess_me:\n",
+    "#       print('found it!')\n",
+    "#       break\n",
+    "#    else:\n",
+    "#        print('oops')\n",
+    "#        break\n",
+    "#    number += 1"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "anaconda-2022.05-py39",
+   "language": "python",
+   "name": "conda-env-anaconda-2022.05-py39-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
